@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/musaddik-portfolio/static/css/main.693c4dcb.css",
+    "main.js": "/musaddik-portfolio/static/js/main.96b49491.js",
+    "static/media/musaddikImage.png": "/musaddik-portfolio/static/media/musaddikImage.34e9e25db51aa80c17dd.png",
+    "static/media/boy.png": "/musaddik-portfolio/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/mhLogo.png": "/musaddik-portfolio/static/media/mhLogo.28c99424d2fd718fa8c1.png",
+    "index.html": "/musaddik-portfolio/index.html",
+    "main.693c4dcb.css.map": "/musaddik-portfolio/static/css/main.693c4dcb.css.map",
+    "main.96b49491.js.map": "/musaddik-portfolio/static/js/main.96b49491.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.693c4dcb.css",
+    "static/js/main.96b49491.js"
+  ]
+}
