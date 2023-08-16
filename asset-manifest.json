@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/musaddik-portfolio/static/css/main.b1fb6c3f.css",
-    "main.js": "/musaddik-portfolio/static/js/main.496c4ca8.js",
-    "static/media/musaddikImage.png": "/musaddik-portfolio/static/media/musaddikImage.34e9e25db51aa80c17dd.png",
-    "static/media/musaddikfainal.png": "/musaddik-portfolio/static/media/musaddikfainal.80e394d602b8073a8e7c.png",
-    "static/media/mhLogo.png": "/musaddik-portfolio/static/media/mhLogo.28c99424d2fd718fa8c1.png",
-    "index.html": "/musaddik-portfolio/index.html",
-    "main.b1fb6c3f.css.map": "/musaddik-portfolio/static/css/main.b1fb6c3f.css.map",
-    "main.496c4ca8.js.map": "/musaddik-portfolio/static/js/main.496c4ca8.js.map"
+    "main.css": "/portfolio/static/css/main.b1fb6c3f.css",
+    "main.js": "/portfolio/static/js/main.20751f6a.js",
+    "static/media/musaddikImage.png": "/portfolio/static/media/musaddikImage.34e9e25db51aa80c17dd.png",
+    "static/media/musaddikfainal.png": "/portfolio/static/media/musaddikfainal.80e394d602b8073a8e7c.png",
+    "static/media/mhLogo.png": "/portfolio/static/media/mhLogo.28c99424d2fd718fa8c1.png",
+    "index.html": "/portfolio/index.html",
+    "main.b1fb6c3f.css.map": "/portfolio/static/css/main.b1fb6c3f.css.map",
+    "main.20751f6a.js.map": "/portfolio/static/js/main.20751f6a.js.map"
   },
   "entrypoints": [
     "static/css/main.b1fb6c3f.css",
-    "static/js/main.496c4ca8.js"
+    "static/js/main.20751f6a.js"
   ]
 }
