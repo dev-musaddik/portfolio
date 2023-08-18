@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d5470f8b.css",
+    "main.css": "/portfolio/static/css/main.7048a266.css",
     "main.js": "/portfolio/static/js/main.741ee188.js",
     "static/media/musaddikImage.png": "/portfolio/static/media/musaddikImage.34e9e25db51aa80c17dd.png",
     "static/media/musaddikfainal.png": "/portfolio/static/media/musaddikfainal.80e394d602b8073a8e7c.png",
     "static/media/mhLogo.png": "/portfolio/static/media/mhLogo.28c99424d2fd718fa8c1.png",
     "index.html": "/portfolio/index.html",
-    "main.d5470f8b.css.map": "/portfolio/static/css/main.d5470f8b.css.map",
+    "main.7048a266.css.map": "/portfolio/static/css/main.7048a266.css.map",
     "main.741ee188.js.map": "/portfolio/static/js/main.741ee188.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5470f8b.css",
+    "static/css/main.7048a266.css",
     "static/js/main.741ee188.js"
   ]
 }
