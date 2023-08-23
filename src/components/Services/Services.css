@@ -1,0 +1,75 @@
+#Services {
+  height: auto;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background-color: #000000;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.212);
+  overflow: hidden;
+}
+.dark-mode-services {
+  background-color: #ffffff !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2) !important;
+}
+.services-card {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  padding: 20px 0 20px 0;
+
+  place-items: center;
+  /* grid-template-rows: repeat(2,1fr); */
+  grid-template-columns: repeat(3, 32.7%) !important;
+  /* grid-template-rows: repeat(2,1fr); */
+
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.card-level{
+  background-color: #07006f;
+  padding: 10px;
+  width:80%;
+  display: grid;
+  grid-template-columns: repeat(3,32%);
+  column-gap: 10px;
+  border-radius: 10px;
+  justify-content: center;
+}
+.card-level>span{
+  text-align: center;
+  background-color: #082e37;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(255, 255, 255);
+  transition: .3s;
+  color: #ffffff;
+}
+.card-level>span:hover{
+ 
+  background-color: #006a82;
+  color: white;
+}
+
+/* ............................................................Mobile */
+@media only screen and (max-width:480px) {
+  .services-card {
+    width: 90%;
+    height: 80%;
+    /* background-color: rgb(0, 0, 0); */
+    /* overflow: hidden; */
+    grid-template-columns: repeat(1, 1fr) !important;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+}
+/* ...........................................................# Tablet */
+@media only screen and (min-width:481px) and (max-width:768px){
+  .services-card {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}

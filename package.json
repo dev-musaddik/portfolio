@@ -1,17 +1,29 @@
 {
   "name": "starter",
+  "homepage": "https://dev-musaddik.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "gh-pages": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.10.1",
+    "react-intersection-observer": "^9.5.2",
+    "react-multi-carousel": "^2.8.4",
     "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.9",
+    "react-spinners": "^0.13.8",
+    "react-spring": "^9.7.2",
+    "react-typed": "^1.2.0",
+    "swiper": "^10.1.0",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.15.0"
   }
 }

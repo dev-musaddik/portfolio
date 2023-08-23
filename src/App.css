@@ -14,10 +14,47 @@
 .App{
     padding: 0.5rem 3.5rem;
     overflow: hidden;
-    color: var(--black);    
+    color: var(--black); 
+    background-color: #000;  
+    transition: .7s; 
+}
+.dark-mode{
+  background-color: white !important;
+}
+.for-icons-container{
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+}
+#massage-app{
+  position: fixed;
+  top: 87vh;
+  right: 6.4%;
+  z-index: 103;
+  /* background-color: #F5C32C; */
+}
+#scroll-icons{
+  position: fixed;
+  top: 75vh;
+  left: 4%;
+  z-index: 100;
+}
+@media screen and (max-width: 1050px){
+  .App{
+    padding: 0.5rem .9rem;
+    }
+    p{
+      font-size: .5rem;
+    }
+    #massage-app{
+      position: fixed;
+      top: 85vh;
+     
+      /* background-color: #F5C32C; */
+    }
+    #scroll-icons{
+      left: 1.4%;
+    }
+
 }
 
-
-  
-
-  

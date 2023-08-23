@@ -1,0 +1,177 @@
+#Contract {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 10px;
+  z-index: 99;
+  /* box-shadow: 5px 5px 50px #ffffff; */
+  margin-top: 20px;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.212);
+}
+a{
+    text-decoration: none;
+    color: #626262;
+}
+.dark-mode-contract {
+  background-color: #ffffff !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2) !important;
+}
+/* ... Previous styles ... */
+.contact-container {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /* overflow-y: scroll; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact-card {
+  width: 100%;
+}
+.contract-box-and-map {
+  display: flex;
+  width: 100;
+}
+
+.contact-card > p {
+  padding: 0 !important;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+    width: 100%; */
+  justify-content: center;
+  /* background-color: #000000; */
+  /* box-shadow: 0 0 5px rgb(63, 63, 63); */
+  border-radius: 5px;
+}
+form > button {
+  width: 100%;
+}
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+  width: auto !important;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group > input,
+.form-group > textarea {
+  width: 100%;
+  padding: 10px 0;
+  /* border: 1px solid #ffffff; */
+  background-color: #000000;
+  outline: none;
+  color: #626262;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  box-shadow: 0 0 5px rgb(45, 45, 45);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.contact-card > button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  margin-top: 10px;
+  color: #00a000;
+  font-weight: bold;
+}
+.contract-box-and-map > form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+
+.contract-box-and-map > .google-map {
+  margin-top: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.con-info {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 2px;
+  margin-top: 10px;
+  background: #000000;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 100px; */
+  box-shadow: 0 0 10px rgb(65, 65, 65);
+  
+}
+.con-info > .icons {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  width: 100% !important;
+  /* background: #000; */
+}
+.con-info>.phone,.address{
+    /* background: #000; */
+    width: 100% !important;
+    height: 100% !important;
+    place-content: center;
+}
+.con-info>.phone,.address,h3{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 880px) {
+  form > button {
+    /* display: none; */
+    padding: 10px !important;
+    /* background-color: #000000 !important; */
+  }
+}
+@media only screen and (max-width: 800px) {
+  .contract-box-and-map {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contract-box-and-map > .google-map {
+    width: 100%;
+  }
+  .google-map > iframe {
+    width: 100%;
+  }
+  .con-info {
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 1px !important;
+    place-items: center;
+  }
+  .con-info > .icons {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* justify-content: center; */
+    /* place-content: center; */
+    place-items: center;
+  }
+
+}
