@@ -21,22 +21,9 @@ const About = ({ darkMode }) => {
   return (
     <div
       id="About"
-      className={`about-section ${darkMode ? "dark-mode-home" : ""}`}
+      className={`about-section ${darkMode ? "dark-mode" : ""}`}
     >
-      {/* <div
-        className="about-left"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <img
-          src={Photo}
-          alt=""
-          style={{ width: "400px", height: "400px", borderRadius: "10px",boxShadow:'5px -5px 10px #4C5270' }}
-        />
-      </div> */}
+
       <div className="about-right">
         <div className="about-header">
           <h1

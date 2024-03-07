@@ -38,8 +38,8 @@ const Contract = ({ darkMode }) => {
   };
 
   return (
-    <div id="Contract" className={`${darkMode ? "dark-mode-services" : ""}`}>
-      <div className={`contact-container ${darkMode ? "dark-mode-services" : ""}`}>
+    <div id="Contract" className={`${darkMode ? "dark-mode" : ""}`}>
+      <div className={`contact-container ${darkMode ? "dark-mode" : ""}`}>
         <div className="contact-card">
           <h2>Get in touch</h2>
           <p>If you have any questions, feel free to reach out!</p>
@@ -60,7 +60,7 @@ const Contract = ({ darkMode }) => {
                   placeholder="  Your Name"
                   value={formData.name}
                   onChange={handleInputChange}
-                  className={`${darkMode ? "dark-mode-services" : ""}`}></input>
+                  className={`${darkMode ? "dark-mode" : ""}`}></input>
                 
               </div>
               <div className="form-group">
@@ -73,7 +73,7 @@ const Contract = ({ darkMode }) => {
                   placeholder="  Your Email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className={`${darkMode ? "dark-mode-services" : ""}`}></input>
+                  className={`${darkMode ? "dark-mode" : ""}`}></input>
               
               </div>
               <div className="form-group">
@@ -85,7 +85,7 @@ const Contract = ({ darkMode }) => {
                   placeholder="  Your Message"
                   value={formData.message}
                   onChange={handleInputChange}
-                  className={`${darkMode ? "dark-mode-services" : ""}`}>
+                  className={`${darkMode ? "dark-mode" : ""}`}>
 
                   </textarea>
               </div>
@@ -104,7 +104,7 @@ const Contract = ({ darkMode }) => {
               ></iframe>
             </div>
           </div>
-          <div className={`con-info ${darkMode ? "dark-mode-services" : ""}`}>
+          <div className={`con-info ${darkMode ? "dark-mode" : ""}`}>
             <div className="icons">
               
                <h3> <AiFillGithub  /><a href="https://github.com/dev-musaddik/musaddik">Github</a></h3>

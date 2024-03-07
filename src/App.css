@@ -17,10 +17,25 @@
     color: var(--black); 
     background-color: #000;  
     transition: .7s; 
+    position: relative;
 }
-.dark-mode{
-  background-color: white !important;
+
+
+
+
+.dark-mode-main {
+  background-color: rgb(224, 224, 224) !important;
+   /* Adjust the alpha value for transparency */
+   transition: .3s;
 }
+
+.dark-mode {
+  background-color: rgba(255, 255, 255, 0.5) !important; /* Adjust the alpha value for transparency */
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgb(255, 255, 255) !important;
+}
+
 .for-icons-container{
   /* position: relative; */
   display: flex;
@@ -40,7 +55,7 @@
   z-index: 100;
 }
 @media screen and (max-width: 1050px){
-  .App{
+  .App:not(.navbar){
     padding: 0.5rem .9rem;
     }
     p{

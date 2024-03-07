@@ -15,7 +15,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
 
   return (
     <>
-    <div className='navbar' id="Navbar">
+    <div  className={`${darkMode ? "dark-mode-navbar" : ""}`} id="Navbar">
         <div className="n-laft">
           <img src={Logo} alt="i'm logo" />
         </div>

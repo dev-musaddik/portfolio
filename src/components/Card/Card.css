@@ -15,16 +15,7 @@
   overflow: hidden;
 
 }
-.dark-mode-portfolio-card{
-  background-color: #ffffff !important;
-  /* border: 2px solid rgb(0, 68, 255); */
-  box-shadow:  0 0 10px rgb(0, 0, 0) !important;
-}
-.dark-mode-portfolio-card:hover{
-  background-color: #b0a8e5 !important;
-  box-shadow:  0 0 10px rgb(0, 0, 0) !important;
 
-}
 .card-container:hover{
   background:rgb(10, 33, 7);
   /* border: 2px solid rgb(255, 255, 255); */

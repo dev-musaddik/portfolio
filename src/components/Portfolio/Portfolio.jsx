@@ -5,7 +5,7 @@ import { productData } from "../../portfolioData";
 
 const Portfolio = ({ darkMode }) => {
   return (
-    <div id="Portfolio" className={`${darkMode ? "dark-mode-portfolio" : ""}`}>
+    <div id="Portfolio" className={`${darkMode ? "dark-mode" : ""}`}>
       <div className="title">
         <h1
           style={{

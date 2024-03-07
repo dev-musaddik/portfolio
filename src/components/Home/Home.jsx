@@ -1,12 +1,12 @@
 import React from "react";
 import "./Home.css";
 import Typed from "react-typed";
-import Photo from "../../img/mtz.png";
+import Photo from "../../img/mp.png";
 import { Link } from "react-scroll";
 
 const Home = ({ darkMode }) => {
   return (
-    <div id="Home" className={`${darkMode ? "dark-mode-about" : ""}`}>
+    <div id="Home" className={`${darkMode ? "dark-mode" : ""}`}>
       <div className="container">
         <div className="left-side">
           <h5>WELLCOME TO MY WORLD</h5>
@@ -23,8 +23,8 @@ const Home = ({ darkMode }) => {
               " A Self Learner",
               " A Developer",
               " A Programmer",
-              " A UI Designer",
-              " A Engineer",
+              " An UI Designer",
+              " An Engineer",
             ]}
             typeSpeed={150}
             backSpeed={70}
@@ -52,7 +52,7 @@ const Home = ({ darkMode }) => {
           </div>
         </div>
         <div className="right_side">
-          <img id={`${darkMode ? "dark-mode-img" : ""}`} style={{boxShadow:'-5px -5px 10px white'}} src={Photo} alt="" />
+          <img id={`${darkMode ? "dark-mode-img" : ""}`} style={{boxShadow:'-5px -5px 10px red'}} src={Photo} alt="" />
         </div>
       </div>
     </div>

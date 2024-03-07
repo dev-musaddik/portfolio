@@ -43,8 +43,8 @@ function App() {
           <HashLoader color="#4C5270" />
         </div>
       ) : (
-        <div className={`App ${darkMode ? "dark-mode" : ""}`}>
-          <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+        <div className={`App ${darkMode ? "dark-mode-main" : ""}`}>
+          <Navbar className='navbar' darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
           <Home darkMode={darkMode} />
           <div className="for-icons-container">
           <About darkMode={darkMode} />

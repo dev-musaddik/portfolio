@@ -19,10 +19,6 @@
   flex-direction: column;
   /* flex: 1; */
 }
-.dark-mode-about{
-    background-color: #ffffff !important;
-    box-shadow:  0 6px 20px rgba(0, 0, 0, 0.2) !important;
-  }
 
 #hide>u:hover{
 color: rgb(0, 0, 120) !important;

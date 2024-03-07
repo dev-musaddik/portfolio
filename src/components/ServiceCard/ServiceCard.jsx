@@ -6,7 +6,7 @@ const ServiceCard = ({ServicesData , darkMode}) => {
     <>
      <div className="services-container">
       
-        <div   className={`service-card ${darkMode ? "dark-mode-services" : ""}`} key={ServicesData.id} >
+        <div   className={`service-card ${darkMode ? "dark-mode" : ""}`} key={ServicesData.id} >
           <img src={ServicesData.icon} alt="" />
           <h3>{ServicesData.name}</h3>
           <p>{ServicesData.description}</p>

@@ -59,7 +59,7 @@ const Services = ({ darkMode }) => {
   return (
     <div
       id="Services"
-      className={`services-container ${darkMode ? "dark-mode-services" : ""}`}
+      className={`services-container ${darkMode ? "dark-mode" : ""}`}
     >
       <div className={`title`}>
         <h1

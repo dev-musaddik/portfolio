@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 const Card = ({darkMode,item}) => {
   return (
-    <div className={`card-container ${darkMode ? "dark-mode-portfolio-card" : ""}`} >
+    <div className={`card-container ${darkMode ? "dark-mode" : ""}`} >
       <div className="img-sec">
         <img src={item.imageurl} alt="alt" />
         
